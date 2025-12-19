@@ -34,7 +34,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: khalia204/it4409-sample:staging
+          tags: khalia204/it4409-sample:1.0.1
 
   deploy:
     name: Deploy to Server
